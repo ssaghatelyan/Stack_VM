@@ -173,18 +173,6 @@ This is an educational project intended to demonstrate low-level programming con
 - Assembly language tutorials
 - Peer discussions and debugging sessions
 
-### AI Usage Disclosure
-
-AI tools were used for:
-
-- Improving README structure and formatting
-- Refining explanations of the algorithm
-- Proofreading documentation
-
-AI was not used to generate or implement the Assembly source code.
-
----
-
 ## License
 
 Educational use only.
