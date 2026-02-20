@@ -1,7 +1,7 @@
 %include "io.inc"
 
 section .bss
-    com resd 1
+	com resd 1
     stack resd 1000
     p resd 1
 
@@ -39,7 +39,7 @@ read:
     mov ecx, '='
     cmp [com], ecx
     je print
-    mov ecx, '|'
+    mov ecx, '.'
     cmp [com], ecx
     je end
     jmp read
@@ -142,4 +142,5 @@ print:
 
 end:
     xor eax, eax
+
     ret
